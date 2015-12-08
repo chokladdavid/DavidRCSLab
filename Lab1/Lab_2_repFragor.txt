@@ -1,0 +1,24 @@
+Övning 2
+Repetitionsfrågor
+
+1. Att instantera en typ betyder att göra ett objekt från classens model.
+
+2. En instans av en typ kan ven kallas ett objekt.
+
+3. int, bool, double, char är vädetyper,
+	objekt, string är referenstyp.
+
+4. Exempel på datatyper som kan skapas:
+	refrenstyper: class, array, interface.
+	objekttyper: struct, enum.
+
+5. Stacken och heapen för C#-program är var programmet lagrar
+	informaton under tiden programmet körs.
+
+6. En variabel är ett namn som refererar till ett värde.
+	En vaiabel skabas genom att bli deklarerad med en
+		datatyp och en identifierare.
+	Att initiera en variabel är att tilldela den ett värde
+		då man deklarerar den.
+	Att tilldela en variabel ett värde ändrar värdet
+		som den har.
