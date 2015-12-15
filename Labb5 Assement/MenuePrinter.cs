@@ -43,8 +43,8 @@ namespace Labb5_Assement
             get { return name; }
             set
             {
-                if (value == "juice" || value == "plate")
-                    name = value;
+                if (value.ToLower() == "juice" || value.ToLower() == "plate")
+                    name = value.ToLower();
                 else
                     Console.WriteLine("Invalid name, try again!");
             }
@@ -55,8 +55,8 @@ namespace Labb5_Assement
             get { return type; }
             set
             {
-                if (value == "apple" || value == "orange" || value == "deep" || value == "flat")
-                    type = value;
+                if (value.ToLower() == "apple" || value.ToLower() == "orange" || value.ToLower() == "deep" || value.ToLower() == "flat")
+                    type = value.ToLower();
                 else
                     Console.WriteLine("Wrong type!");
             }
@@ -67,8 +67,8 @@ namespace Labb5_Assement
             get { return mark; }
             set
             {
-                if (value == "krav" || value == "EG" || value == "other")
-                    mark = value;
+                if (value.ToLower() == "krav" || value.ToLower() == "EG")
+                    mark = value.ToLower();
             }
         }
 
